@@ -1,0 +1,45 @@
+h2 {
+  color: cyan;
+  font-size: 70px; 
+  animation: color-change 3s infinite;
+
+
+}
+
+ol {
+    background-color:blueviolet;
+    border: crimson;
+}
+
+
+h1 {
+    font-family: Arial, sans-serif;
+    animation: color-change 3s infinite;
+
+
+}
+
+h1:hover {
+  animation: color-change is infinite
+}
+
+@keyframes color-change {
+  0% {
+      color:blue
+  }
+    50% {
+      color:red
+    }
+    100% {
+      color:blueviolet
+    }
+}
+
+
+
+.box{
+  background: url(../img/pogoda.jpg);
+  height:100px;
+}
+
+  
